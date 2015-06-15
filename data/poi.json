@@ -1,0 +1,69 @@
+{"type": "FeatureCollection","features": [
+{
+"type": "Feature", 
+"properties": 
+	{
+	"geocode":1,
+	"name":"Lausanne",
+	"oeuvre": "ville",
+	"date": "1000",
+	"image": "img/lausanne.jpg",
+	"description":"Lausanne est une très belle ville, mais Genève est plus belle encore"
+	},
+"geometry": 
+	{
+	"type": "Point", 
+	"coordinates": [6.646, 46.5219]
+	}
+},
+{
+"type": "Feature", 
+"properties": 
+	{
+	"geocode":2,
+	"name":"Genève",
+	"oeuvre": "ville",
+	"date": "1000",
+	"image": "img/geneve.jpg",
+	"description":"Genève est une très belle ville, mais Lausanne est plus belle encore"
+	},
+"geometry": 
+	{
+	"type": "Point", 
+	"coordinates": [6.1501, 46.2018]
+	}
+},
+{
+"type": "Feature", 
+"properties": 
+	{
+	"geocode":3,
+	"name":"BOCION, François",
+	"oeuvre": "Bord du lac à Rivaz",
+	"date": "1883",
+	"image": "img/bocion1983rivaz.jpg",
+	"description":"Voilà un bien joli tableau"
+	},
+"geometry": 
+	{
+	"type": "Point", 
+	"coordinates": [6.7788, 46.4741]
+	}
+},
+{
+"type": "Feature", 
+"properties": 
+	{
+	"geocode":4,
+	"name":"RAMUZ, Charles-Ferdinand",
+	"oeuvre": "La beauté sur la Terre",
+	"date": "19xx",
+	"image": "img/ramuz.jpg",
+	"description":"Charles Ferdinand Ramuz est un écrivain et poète suisse dont l'œuvre comprend des romans, des essais et des poèmes où figurent au premier plan les espoirs et les désirs de l'Homme. Ramuz puisa dans d'autres formes d'art (peinture, cinéma) pour contribuer à la redéfinition du roman."
+	},
+"geometry": 
+	{
+	"type": "Point", 
+	"coordinates": [6.6646, 46.5085]
+	}
+}]}
