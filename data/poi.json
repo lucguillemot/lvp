@@ -3,40 +3,6 @@
 "type": "Feature", 
 "properties": 
 	{
-	"geocode":1,
-	"name":"Lausanne",
-	"oeuvre": "ville",
-	"date": "1000",
-	"image": "img/lausanne.jpg",
-	"description":"Lausanne est une très belle ville, mais Genève est plus belle encore"
-	},
-"geometry": 
-	{
-	"type": "Point", 
-	"coordinates": [6.646, 46.5219]
-	}
-},
-{
-"type": "Feature", 
-"properties": 
-	{
-	"geocode":2,
-	"name":"Genève",
-	"oeuvre": "ville",
-	"date": "1000",
-	"image": "img/geneve.jpg",
-	"description":"Genève est une très belle ville, mais Lausanne est plus belle encore"
-	},
-"geometry": 
-	{
-	"type": "Point", 
-	"coordinates": [6.1501, 46.2018]
-	}
-},
-{
-"type": "Feature", 
-"properties": 
-	{
 	"geocode":3,
 	"name":"BOCION, François",
 	"oeuvre": "Bord du lac à Rivaz",
@@ -66,4 +32,107 @@
 	"type": "Point", 
 	"coordinates": [6.6646, 46.5085]
 	}
-}]}
+},
+{
+"type": "Feature", 
+"properties": 
+	{
+	"geocode":5,
+	"name":"BOCION, François",
+	"oeuvre": "Le château de Glérolles à Rivaz",
+	"date": "19xx",
+	"image": "img/bocionGlerolles.jpg",
+	"description":""
+	},
+"geometry": 
+	{
+	"type": "Point", 
+	"coordinates": [6.78673, 46.47414]
+	}
+},
+{
+"type": "Feature", 
+"properties": 
+	{
+	"geocode":6,
+	"name":"BOCION, François",
+	"oeuvre": "L'embouchure de la Vuachère",
+	"date": "1884",
+	"image": "img/bocion1884EmbouchureVuachere.jpg",
+	"description":""
+	},
+"geometry": 
+	{
+	"type": "Point", 
+	"coordinates": [6.64198, 46.50485]
+	}
+},
+{
+"type": "Feature", 
+"properties": 
+	{
+	"geocode":7,
+	"name":"BOCION, François",
+	"oeuvre": "Internés français dans la cour du Château d’Aubonne",
+	"date": "1871",
+	"image": "img/bocion1871ChateauAubonne.jpg",
+	"description":""
+	},
+"geometry": 
+	{
+	"type": "Point",
+	"coordinates": [6.39089, 46.49661]
+	}
+},
+{
+"type": "Feature", 
+"properties": 
+	{
+	"geocode":8,
+	"name":"BOCION, François",
+	"oeuvre": "Les rives du Léman à la Tour-de-Peilz",
+	"date": "1884",
+	"image": "img/bocion1884RiveLemanTourdepeilz.jpg",
+	"description":""
+	},
+"geometry": 
+	{
+	"type": "Point",
+	"coordinates": [6.86295, 46.44802]
+	}
+},
+{
+"type": "Feature", 
+"properties": 
+	{
+	"geocode":9,
+	"name":"BOCION, François",
+	"oeuvre": "Portrait en plein air du châtelain de Montagny et de ses enfants",
+	"date": "1854",
+	"image": "img/bocion1854MontagnyEnfants.jpg",
+	"description":""
+	},
+"geometry": 
+	{
+	"type": "Point",
+	"coordinates": [6.70295, 46.50017]
+	}
+},
+{
+"type": "Feature", 
+"properties": 
+	{
+	"geocode":10,
+	"name":"BOCION, François",
+	"oeuvre": "Plage des Pierrettes, Saint-Sulpice",
+	"date": "18xx",
+	"image": "img/bocionPierettesStSulpice.jpg",
+	"description":""
+	},
+"geometry": 
+	{
+	"type": "Point",
+	"coordinates": [6.57717, 46.51648]
+	}
+}
+]}

@@ -16,7 +16,7 @@
 
 	var map = new L.Map('map').setView([46.3683, 6.4847], 10 );
 	//var layer = new L.StamenTileLayer("toner");
-	var layer = new L.tileLayer("http://{s}.sm.mapstack.stamen.com/(toner-lite,$fff[difference],$fff[@23],$fff[hsl-saturation@20])/{z}/{x}/{y}.png");
+	var layer = new L.tileLayer("http://{s}.sm.mapstack.stamen.com/(toner-lite,$fff[difference],$666[@23],$fff[hsl-saturation@20])/{z}/{x}/{y}.png");
 	map.addLayer(layer);
 	map.scrollWheelZoom.disable();
 
@@ -25,7 +25,7 @@
 
 	d3.json("data/poi.json", function(collection) {
 	  var transform = d3.geo.transform({point: projectPoint}),
-	      path = d3.geo.path().projection(transform).pointRadius(8);
+	      path = d3.geo.path().projection(transform).pointRadius(5);
 
 	var feature = g.selectAll("path")
 	    .data(collection.features)
@@ -37,7 +37,7 @@
 				  d3.select(".image img").remove("img");
 				  d3.select(".image").append("img").attr("src", d.properties.image);
 				  d3.select(".descr").text(d.properties.description);
-				})
+				});
 
 	  map.on("viewreset", reset);
 	  reset();

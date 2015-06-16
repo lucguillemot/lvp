@@ -31,6 +31,7 @@ body {
 #map {
   width: screen.width;
   height: 600px;
+  cursor: crosshair;
 }
 
 path {
@@ -39,8 +40,10 @@ path {
 }
 
 path:hover {
-    fill: brown;
-    fill-opacity: .7;
+    fill: #93becf;
+    fill-opacity: .6;
+    stroke:#93becf;
+    stroke-width: 2px;
 }
 
 /*.poi {
