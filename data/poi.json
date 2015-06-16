@@ -3,6 +3,40 @@
 "type": "Feature", 
 "properties": 
 	{
+	"geocode":0,
+	"name":"",
+	"oeuvre": "",
+	"date": "",
+	"image": "",
+	"description":""
+	},
+"geometry": 
+	{
+	"type": "Point", 
+	"coordinates": [0, 90]
+	}
+},
+{
+"type": "Feature", 
+"properties": 
+	{
+	"geocode":0,
+	"name":"",
+	"oeuvre": "",
+	"date": "",
+	"image": "",
+	"description":""
+	},
+"geometry": 
+	{
+	"type": "Point", 
+	"coordinates": [90, 0]
+	}
+},
+{
+"type": "Feature", 
+"properties": 
+	{
 	"geocode":3,
 	"name":"BOCION, François",
 	"oeuvre": "Bord du lac à Rivaz",

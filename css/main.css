@@ -37,6 +37,8 @@ body {
 path {
     fill: #ffd800;
     fill-opacity: .6;
+    stroke:#ffd800;
+    stroke-width: 1px;
 }
 
 path:hover {

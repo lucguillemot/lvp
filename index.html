@@ -25,7 +25,7 @@
 
 	d3.json("data/poi.json", function(collection) {
 	  var transform = d3.geo.transform({point: projectPoint}),
-	      path = d3.geo.path().projection(transform).pointRadius(5);
+	      path = d3.geo.path().projection(transform).pointRadius(4);
 
 	var feature = g.selectAll("path")
 	    .data(collection.features)
@@ -65,27 +65,12 @@
 	  }
 	});
 
-	d3.select("body")
-		.append("div")
-			.attr("class", "div-legend")
-		  .attr("width", "100px")
-		  .attr("height", "500px");
-		    //.attr("transform", "translate(960px,0px)");	
-	var nom = d3.select(".div-legend")
-					.append("div")
-						.attr("class", "name");
-	var oeuvre = d3.select(".div-legend")
-					.append("div")
-						.attr("class", "oeuvre");
-	var image = d3.select(".div-legend")
-					.append("div")
-						.attr("class", "image");
-	var description = d3.select(".div-legend")
-					.append("div")
-						.attr("class", "descr");
-					
-
 	</script>
-
+	<div class="div-legend">
+		<div class="name"></div>
+		<div class="oeuvre"></div>
+		<div class="image"></div>
+		<div class="descr"></div>
+	</div>
 </body>
 </html>
