@@ -8,6 +8,7 @@
 	"oeuvre": "",
 	"date": "",
 	"image": "",
+	"type": "painting",
 	"description":""
 	},
 "geometry": 
@@ -25,6 +26,7 @@
 	"oeuvre": "",
 	"date": "",
 	"image": "",
+	"type": "painting",
 	"description":""
 	},
 "geometry": 
@@ -42,6 +44,7 @@
 	"oeuvre": "Bord du lac à Rivaz",
 	"date": "1883",
 	"image": "img/bocion1983rivaz.jpg",
+	"type": "painting",
 	"description":"Voilà un bien joli tableau"
 	},
 "geometry": 
@@ -59,6 +62,7 @@
 	"oeuvre": "La beauté sur la Terre",
 	"date": "19xx",
 	"image": "img/ramuz.jpg",
+	"type": "painting",
 	"description":"Charles Ferdinand Ramuz est un écrivain et poète suisse dont l'œuvre comprend des romans, des essais et des poèmes où figurent au premier plan les espoirs et les désirs de l'Homme. Ramuz puisa dans d'autres formes d'art (peinture, cinéma) pour contribuer à la redéfinition du roman."
 	},
 "geometry": 
@@ -76,6 +80,7 @@
 	"oeuvre": "Le château de Glérolles à Rivaz",
 	"date": "19xx",
 	"image": "img/bocionGlerolles.jpg",
+	"type": "painting",
 	"description":""
 	},
 "geometry": 
@@ -93,6 +98,7 @@
 	"oeuvre": "L'embouchure de la Vuachère",
 	"date": "1884",
 	"image": "img/bocion1884EmbouchureVuachere.jpg",
+	"type": "painting",
 	"description":""
 	},
 "geometry": 
@@ -110,6 +116,7 @@
 	"oeuvre": "Internés français dans la cour du Château d’Aubonne",
 	"date": "1871",
 	"image": "img/bocion1871ChateauAubonne.jpg",
+	"type": "painting",
 	"description":""
 	},
 "geometry": 
@@ -127,6 +134,7 @@
 	"oeuvre": "Les rives du Léman à la Tour-de-Peilz",
 	"date": "1884",
 	"image": "img/bocion1884RiveLemanTourdepeilz.jpg",
+	"type": "painting",
 	"description":""
 	},
 "geometry": 
@@ -144,6 +152,7 @@
 	"oeuvre": "Portrait en plein air du châtelain de Montagny et de ses enfants",
 	"date": "1854",
 	"image": "img/bocion1854MontagnyEnfants.jpg",
+	"type": "painting",
 	"description":""
 	},
 "geometry": 
@@ -161,12 +170,67 @@
 	"oeuvre": "Plage des Pierrettes, Saint-Sulpice",
 	"date": "18xx",
 	"image": "img/bocionPierettesStSulpice.jpg",
+	"type": "painting",
 	"description":""
 	},
 "geometry": 
 	{
 	"type": "Point",
 	"coordinates": [6.57717, 46.51648]
+	}
+},
+{
+"type": "Feature", 
+"properties": 
+	{
+	"geocode":11,
+	"name":"Barilier, Étienne",
+	"oeuvre": "Pully-nord ou Pully-village",
+	"date": "2014",
+	"image": "",
+	"type": "literature",
+	"description":"Mystère du premier pas. Infime et stupéfiante nécessité des commencements : si je prétends ce matin conquérir les déserts ou les îles, les pôles ou les abysses, je dois d’abord me rendre à la gare la plus proche ; pour me rendre à la gare la plus proche, je dois au préalable sortir de chez moi – donc traverser l’espace de ma chambre ; à cette fin, je dois impérativement quitter mon lit, glisser la jambe hors de mes draps. Ainsi de suite. Oui, cet humble commencement de la plus vaste entreprise, pour peu qu’on y songe, est un vrai mystère. Zénon, ce philosophe d’une époque lointaine où la philosophie parlait simplement des choses simples, se demandait à juste titre comment diable une flèche, projetée dans l’espace par un tireur à l’arc, pouvait un beau jour atteindre son but : avant d’y parvenir, ne devait-elle pas avoir traversé la moitié de la distance qui l’en sépare ? Mais avant d’avoir franchi cette moitié, ne devait-elle pas avoir parcouru la moitié de la moitié, et ainsi de suite, à l’infini ? Chaque fraction de millimètre en cache d’autres plus petites, mais non moins réelles. Comment venir à bout de cette infinité de distances en un temps fini ?"
+	},
+"geometry": 
+	{
+	"type": "Point",
+	"coordinates": [6.6592, 46.51094]
+	}
+},
+{
+"type": "Feature", 
+"properties": 
+	{
+	"geocode":12,
+	"name":"Freudiger, Alain",
+	"oeuvre": "Épuisement d'un lieu lausannois (le puisatier)",
+	"date": "2014",
+	"image": "",
+	"type": "literature",
+	"description": "La place forme un triangle rectangle. L'hypoténuse du triangle est redoublée par un escalier bas, puis par une route ascendante (la Route de Bel-Air), puis, derrière, par le Grand-Pont et ses arches, où je me situe. La petite cathète du triangle est barrée par une structure de verre faisant office d’accès aux trains LEB et à l'ascenseur menant à la passerelle supérieure, passerelle supérieure qui redouble la structure et barre la petite cathète vers le haut. La grande cathète du triangle est limitée par la monumentale entrée du Centre Clientèle TL et de l'accès aux métros. La Place de l'Europe proprement dite consiste dans ce triangle rectangle."
+	},
+"geometry": 
+	{
+	"type": "Point",
+	"coordinates": [6.63024, 46.52076] 
+	}
+},
+{
+"type": "Feature", 
+"properties": 
+	{
+	"geocode":12,
+	"name":"Godard, Jean-Luc",
+	"oeuvre": "Lettre à Freddy Buache",
+	"date": "1982",
+	"image": "img/Godard1982LettreBuache.jpg",
+	"type": "cinema",
+	"description": "A Letter to Freddy Buache (French: Lettre à Freddy Buache) is a 1982 French short documentary film directed by Jean-Luc Godard and addressed to the Swiss film critic Freddy Buache. It was screened in the Un Certain Regard section at the 1982 Cannes Film Festival."
+	},
+"geometry": 
+	{
+	"type": "Point",
+	"coordinates": [6.632, 46.5094] 
 	}
 }
 ]}

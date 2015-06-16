@@ -30,28 +30,37 @@ body {
 
 #map {
   width: screen.width;
-  height: 600px;
+  height: 650px;
   cursor: crosshair;
 }
 
-path {
+.painting {
     fill: #ffd800;
     fill-opacity: .6;
     stroke:#ffd800;
     stroke-width: 1px;
 }
 
-path:hover {
-    fill: #93becf;
-    fill-opacity: .6;
-    stroke:#93becf;
-    stroke-width: 2px;
+.literature {
+    fill: #24ae81;
+    fill-opacity: .8;
+    stroke:#24ae81;
+    stroke-width: 1px;
 }
 
-/*.poi {
-	fill: rgba(210, 80, 89, .5);
-	//stroke: rgba(135, 24, 28, .9);
-}*/
+.cinema {
+	fill: #4bc1ee;
+    fill-opacity: .8;
+    stroke:#4bc1ee;
+    stroke-width: 1px;
+}
+
+path:hover {
+    fill: #fff;
+    fill-opacity: .6;
+    stroke:#fff;
+    stroke-width: 3px;
+}
 
 .div-legend {
 	padding: 10px;

@@ -36,7 +36,7 @@
 	var feature = g.selectAll("path")
 	    .data(collection.features)
 	  .enter().append("path")
-	  .attr("class", "poi")
+	  .attr("class", function(d){return d.properties.type;})
 	  .on("mouseover", function(d){
 				  d3.select(".name").text(d.properties.name);
 				  d3.select(".oeuvre").text(d.properties.oeuvre);
